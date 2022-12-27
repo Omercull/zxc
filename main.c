@@ -4,5 +4,5 @@
 #include <time.h>
 #include "readline.h"
 int main() {
-    char *input
+    char *input = readline()
 }
