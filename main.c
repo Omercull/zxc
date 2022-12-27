@@ -4,5 +4,9 @@
 #include <time.h>
 #include "readline.h"
 int main() {
-    char *input = readline()
+    char *input = readline("Input:");
+
+
+
+    if (input != NULL) free (input);
 }
